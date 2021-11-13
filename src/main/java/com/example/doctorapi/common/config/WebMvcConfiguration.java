@@ -10,7 +10,8 @@ public class WebMvcConfiguration implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new TokenInterceptor())
-                .addPathPatterns("/**", "/configurePathMatch")
-                .excludePathPatterns("/user/**", "/configurePathMatch");
+                .addPathPatterns("/home**", "/configurePathMatch");
+//                .excludePathPatterns("/user/**", "/configurePathMatch")
+//                .excludePathPatterns("/swagger-ui.html", "/configurePathMatch");
     }
 }
