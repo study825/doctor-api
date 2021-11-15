@@ -1,16 +1,31 @@
 package com.example.doctorapi.controller;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import com.example.doctorapi.common.util.ControllerResponseT;
+import com.example.doctorapi.dao.PhoneLog;
+import com.example.doctorapi.repository.PhoneLogRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Date;
 
 @RestController
 @RequestMapping("tool")
 public class ToolController {
+    @Autowired
+    private PhoneLogRepository phoneLogRepository;
 
-    @PostMapping("phone")
-    public Integer phone(@RequestParam Integer number) {
-        return number;
+    @GetMapping("phone")
+    public ControllerResponseT<Object> phone(@RequestParam Long phone) {
+        Date date = new Date();
+        Long nowTime = date.getTime();
+
+        PhoneLog phoneLog = new PhoneLog();
+        phoneLog.setPhone(phone);
+        phoneLog.setCode(6666);
+        phoneLog.setStatus(1);
+        phoneLog.setCreatedTime(nowTime);
+        phoneLogRepository.save(phoneLog);
+
+        return ControllerResponseT.ofSuccess("success");
     }
 }
