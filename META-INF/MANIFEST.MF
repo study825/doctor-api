@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Main-Class: com.DoctorApiApplication
+Class-Path: antlr-2.7.7.jar log4j-api-2.14.1.jar spring-boot-starter-jdb
+ c-2.5.6.jar lombok-1.18.22.jar slf4j-api-1.7.32.jar spring-boot-autocon
+ figure-2.5.6.jar spring-boot-starter-2.5.6.jar dom4j-2.1.3.jar logback-
+ classic-1.2.6.jar swagger-annotations-1.5.13.jar spring-boot-starter-js
+ on-2.5.6.jar springfox-schema-2.7.0.jar reflections-0.9.11.jar spring-e
+ xpression-5.3.12.jar spring-jdbc-5.3.12.jar spring-boot-starter-aop-2.5
+ .6.jar jakarta.persistence-api-2.2.3.jar spring-aop-5.3.12.jar swagger-
+ models-1.5.13.jar snakeyaml-1.28.jar spring-data-jpa-2.5.6.jar jackson-
+ datatype-jdk8-2.12.5.jar spring-tx-5.3.12.jar byte-buddy-1.10.22.jar sp
+ ring-web-5.3.12.jar tomcat-embed-websocket-9.0.54.jar springfox-core-2.
+ 7.0.jar jakarta.activation-api-1.2.2.jar javassist-3.27.0-GA.jar jaxb-r
+ untime-2.3.5.jar mysql-connector-java-8.0.25.jar tomcat-embed-core-9.0.
+ 54.jar jul-to-slf4j-1.7.32.jar istack-commons-runtime-3.0.12.jar spring
+ -boot-starter-web-2.5.6.jar spring-orm-5.3.12.jar springfox-swagger-ui-
+ 2.7.0.jar jandex-2.2.3.Final.jar jboss-logging-3.4.2.Final.jar logback-
+ core-1.2.6.jar springfox-spring-web-2.7.0.jar commons-codec-1.15.jar ja
+ karta.xml.bind-api-2.3.3.jar spring-boot-2.5.6.jar HikariCP-4.0.3.jar s
+ pringfox-swagger2-2.7.0.jar jakarta.activation-1.2.2.jar spring-context
+ -5.3.12.jar spring-jcl-5.3.12.jar jackson-datatype-jsr310-2.12.5.jar to
+ mcat-embed-el-9.0.54.jar spring-core-5.3.12.jar txw2-2.3.5.jar mapstruc
+ t-1.1.0.Final.jar jakarta.transaction-api-1.3.3.jar spring-plugin-metad
+ ata-1.2.0.RELEASE.jar spring-aspects-5.3.12.jar spring-boot-starter-log
+ ging-2.5.6.jar spring-boot-starter-data-jpa-2.5.6.jar guava-18.0.jar sp
+ ringfox-swagger-common-2.7.0.jar pagehelper-5.3.0.jar java-jwt-3.8.1.ja
+ r spring-webmvc-5.3.12.jar aspectjweaver-1.9.7.jar hibernate-core-5.4.3
+ 2.Final.jar spring-plugin-core-1.2.0.RELEASE.jar jackson-core-2.12.5.ja
+ r jackson-annotations-2.12.5.jar jsqlparser-4.2.jar spring-boot-starter
+ -tomcat-2.5.6.jar jakarta.annotation-api-1.3.5.jar hibernate-commons-an
+ notations-5.1.2.Final.jar fastjson-1.2.45.jar log4j-to-slf4j-2.14.1.jar
+  spring-data-commons-2.5.6.jar jackson-module-parameter-names-2.12.5.ja
+ r spring-beans-5.3.12.jar classmate-1.5.1.jar springfox-spi-2.7.0.jar j
+ ackson-databind-2.12.5.jar
+
